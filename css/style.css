@@ -1,0 +1,128 @@
+/* FLEXBOX */
+
+/* GENERAL RULES */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+/* CLOSE GENERAL RULES */
+
+/* HEADER */
+.header {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  font-family: "Crafty Girls", cursive;
+}
+.header a {
+  color: white;
+}
+
+.top-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.so-list-item {
+  padding-right: 4px;
+}
+/* CLOSE HEADER RULES */
+
+/* MAIN */
+.main-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.section1 {
+  color: white;
+  background-color: rgb(231, 113, 139);
+}
+
+.block1 button {
+  background-color: rgb(53, 52, 52);
+  padding: 7px;
+  font-size: 8px;
+  color: white;
+  border-radius: 5px;
+}
+
+.block2 img {
+  width: 350px;
+  height: 250px;
+}
+
+.section2 {
+  background-color: rgb(244, 244, 246);
+  border-bottom: 5px solid pink;
+}
+
+.section2-inner {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.section3-inner {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.product {
+  margin: 7px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: rgb(68, 68, 68);
+  border: 5px solid rgb(187, 195, 205);
+  color: white;
+}
+
+.aside-text {
+  color: gray;
+}
+
+.bold {
+  color: black;
+  font-weight: bold;
+}
+/* CLOSE MAIN RULES */
+
+/* FOOTER */
+.footer {
+  background-color: rgb(53, 52, 52);
+}
+
+.footer a {
+  color: white;
+}
+
+.footer .inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* CLOSER FOOTER RULES */
